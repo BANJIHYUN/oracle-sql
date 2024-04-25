@@ -1,8 +1,9 @@
 package vo;
 
 public class Emp {
+	private int empNo;
+	private String ename;
 	public int empno;
-	public String ename;
 	public String job;
 	public int MGR;
 	public String hiredate;
@@ -57,6 +58,12 @@ public class Emp {
 	public void setDeptno(int deptno) {
 		this.deptno = deptno;
 	}
+	public void setGrade(int int1) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
 	
 	
 }
